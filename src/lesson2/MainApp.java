@@ -82,7 +82,8 @@ public class MainApp {
      * Задание 4: Выведите на экран все строки файла в обратном порядке.
      */
     private static void task4(Collection<String> lines) {
-        System.out.println("все строки файла в обратном порядке: \n" + lines);
+        System.out.println("все строки файла в обратном порядке:");
+        lines.forEach(System.out::println);
     }
 
     /**
